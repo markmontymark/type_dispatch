@@ -1,0 +1,30 @@
+{
+  "name": "multimethods",
+  "version": "0.0.0",
+  "description": "Dispatch to different function of same name when arguments are different",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markmontymark/multimethods.git"
+  },
+  "keywords": [
+    "js",
+    "multimethod",
+    "dispatch",
+    "multimethod-js",
+    "typeof"
+  ],
+  "author": "Mark Koopman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markmontymark/multimethods/issues"
+  },
+  "homepage": "https://github.com/markmontymark/multimethods",
+  "dependencies": {
+    "typeof": "^1.0.0",
+    "multimethod": "^0.1.0"
+  }
+}
