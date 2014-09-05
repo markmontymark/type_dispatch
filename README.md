@@ -26,3 +26,8 @@ var a = new A();
 a.method1();
 a.method1("first", new B());
 ```
+
+# TODO
+
+- If a match on argument types is not found, then nothing is called and no errors are thrown.  This should be configurable.
+- If a null or undefined value is passed, then can't determine if that argument should have been of some type.
