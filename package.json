@@ -1,5 +1,5 @@
 {
-  "name": "multimethods",
+  "name": "type_dispatch",
   "version": "0.0.1",
   "description": "Dispatch to different function of same name when arguments are different",
   "main": "index.js",
