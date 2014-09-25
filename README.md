@@ -31,3 +31,8 @@ a.method1("first", new B());
 
 - If a match on argument types is not found, then nothing is called and no errors are thrown.  This should be configurable.
 - If a null or undefined value is passed, then can't determine if that argument should have been of some type.
+- allow n-many arrays of types before the function definition, something like:
+    
+[],
+[String],
+function(maybeString){}
