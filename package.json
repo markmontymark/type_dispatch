@@ -1,6 +1,6 @@
 {
   "name": "type_dispatch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dispatch to different function of same name when arguments are different",
   "main": "index.js",
   "scripts": {
