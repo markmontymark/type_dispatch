@@ -24,5 +24,8 @@ A.prototype.method1 = type_dispatch(
 
 var a = new A();
 a.method1();
+// no args
 a.method1("first", new B());
+// got two args:  first { name: 'BBB' }
+
 ```

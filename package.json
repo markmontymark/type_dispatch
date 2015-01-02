@@ -1,10 +1,10 @@
 {
   "name": "type_dispatch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dispatch to different function of same name when arguments are different",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/markmontymark/type_dispatch",
   "dependencies": {
     "multimethod": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   }
 }
